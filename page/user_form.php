@@ -32,7 +32,7 @@
 		   <input type="email" name="email" placeholder="E-mail" value="<?php echo $email;?>">
 		   <span>* <?php echo $emailErr;?></span>
 		   <br><br>
-		   <input type="password" name="password" placeholder="Password" value="<?php echo $password;?>">
+		   <input type="password" name="password" placeholder="Password" value="">
 		   <span class="error">* <?php echo $passwordErr;?></span>
 		   <br><br>
 		   <input type="submit" name="submit" value="Login">
