@@ -44,12 +44,7 @@
     }
 ?>
 
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title> User registration page </title>
-	</head>
-	<body>
+<?php require_once("../header.php"); ?>
 		<h2>Register</h2>
 		<p><span>* required field.</span></p>
 		<form method="post">
@@ -78,5 +73,4 @@
 		<a href="user_form.php">Login</a>
 		<br>
 		<?php echo '<h2>'.$success.'</h2>'?>
-	</body>
-</html>
+<?php require_once("../footer.php"); ?>

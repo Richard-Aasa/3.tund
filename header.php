@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title> User login page </title>
+		<title><?php echo $page_title?></title>
 	</head>
 	<body>
 	<?php
